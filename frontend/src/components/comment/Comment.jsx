@@ -27,7 +27,7 @@ const Comment = ({ comment, setComments }) => {
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.left}>
-          <img src={comment?.author?.profileImg ? `http://localhost:5000/images/${comment?.author?.profileImg}` : person}/>
+          <img src={comment?.author?.profileImg ? `https://ar0-01.onrender.com/images/${comment?.author?.profileImg}` : person}/>
           <div className={classes.userData}>
             <h4>{comment?.author?.username}</h4>
             <span className={classes.timeago}>{format(comment?.createdAt)}</span>

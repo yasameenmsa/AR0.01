@@ -1,0 +1,13 @@
+  // },
+  // "scripts": {
+  //
+
+
+
+  "start": "node backend/index.js",
+    "start:dev": "nodemon backend/index.js", 
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "react-scripts build",
+    "build:backend": "webpack --config backend/webpack.config.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
